@@ -1,0 +1,243 @@
+.page {
+  width:1300px;
+}
+
+/* 以降header */
+.header {
+  width: 1000px;
+  height:70px;
+  margin:60px 0;
+}
+.header_logo {
+  color:#55bbbb;
+  font-family: "Amatic SC", cursive;
+  font-size: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* 以降main1 */
+.main {
+  width: 1000px;
+  /* font-family: "Shippori Mincho", cursive; */
+  padding:0 50px;
+}
+.main1_inner {
+  margin-bottom: 60px;
+  position: relative;
+}
+.main1_firstview {
+  font-size: 40px;
+}
+.firstview_cyan_fontsize{
+  font-size: 64px;
+  color:#55bbbb;
+}
+.firstview_black_fontsize{
+  font-size: 64px;
+}
+.main1_catchcopy1 {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 40px;
+}
+.main1_icon {
+  background-color: #FF4384;
+  border-radius: 55px;
+  color:white;
+  font-size: 25px;
+  padding:40px 15px;
+  text-align: center;
+}
+.main1_contents {
+  margin-left: 20px;
+  padding-top: 20px;
+}
+.main1_contents_title {
+  color: #55bbbb;
+}
+.main1_contents_price {
+  color: #FF4384;
+  font-size: 25px;
+  margin-top: 10px;
+}
+.main1_contents_price_fontsize{
+  font-size: 40px;  
+}
+.main1_catchcopy2 {
+  background-color: #FF4384;
+  border-radius: 50px;
+  color: white;
+  font-size: 15px;
+  display: inline-block;
+  padding:30px 30px;
+  margin-top: 40px;
+  font-size: 25px;
+}
+.main1_catchcopy3 {
+  position: relative;
+  background-color: #55bbbb;
+  color:white;
+  margin-top: 40px;
+  padding: 30px 30px;
+  font-size: 25px;
+  text-align: center;
+}
+.main1_catchcopy3:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-top: 15px solid #55bbbb;
+}
+.main1_catchcopy3_fontsize {
+  font-size: 40px;
+}
+.main1_img img{
+  width:1000px;
+  position:absolute;
+  top:250px;
+  z-index: -1;
+}
+
+/* 以降main2 */
+.main2_inner {
+  width: 1000px;
+  margin: 60px 0;
+}
+.main2_catchcopy1 {
+  display: flex;
+  justify-content: center;
+}
+.main2_img img{
+  width:80%;
+}
+.main2_list {
+  border: 2px solid #55bbbb;
+  border-radius: 30px;
+  height: 50%;
+  padding: 0px 30px;
+}
+.main2_listitems{
+  list-style-type: none;
+  margin-left:20px;
+  padding: 20px 0;
+}
+.main2_listitem {
+  position: relative;
+  color: #55bbbb;
+  margin:30px 0;
+  font-size: 25px;
+  border-bottom:2px solid #55bbbb;
+}
+.main2_listitem:before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 10px;
+  border-left: 3px solid #FF4384;
+  border-bottom: 3px solid #FF4384;
+  transform: rotate(-45deg);
+  position: absolute;
+  /* top: 0.25rem; */
+  left: -30px;
+}
+.main2_catchcopy2 {
+  background-color: #55bbbb;
+  padding:20px 0;
+}
+.main2_contents {
+  color:white;
+  text-align: center;
+  font-size: 25px;
+  line-height: 50px;
+}
+.main2_contents_fontchange {
+  font-family: "Amatic SC", cursive;
+  font-size: 30px;
+}
+.main2_contents_fontsize {
+  font-size: 40px;
+}
+.main2_contents_fontcolor {
+  font-size: 40px;
+  color:#FF4384;
+}
+
+/* 以降main3 */
+.main3_inner {
+
+}
+.main3_contents {
+  display: flex;
+  justify-content: center;
+}
+.main3_card {
+  width: 300px;
+  position:relative;
+}
+.main3_cardicon1 {
+  color:#55bbbb;
+  font-size: 25px;
+  background-color: white;
+  display: inline-block;
+  position: absolute;
+  left: 15px;
+}
+.main3_cardcontents {
+  position: absolute;
+  top:10px;
+  padding: 0 10px;
+  border: 2px solid #55bbbb;
+  z-index: -1;
+}
+.main3_catchcopy1 {
+  font-size: 25px;
+  margin-top:50px;
+}
+.main3_catchcopy_color {
+  color: #FF4384;
+}
+.main3_sentence1 {
+  margin: 20px 0;
+}
+.main3_cardicon2 {
+  color: #55bbbb;
+  font-size: 25px;
+  background-color: white;
+  display: inline-block;
+  position: absolute;
+  left: 15px;
+}
+.main3_catchcopy2 {
+  font-size: 25px;
+  margin-top: 50px;
+}
+.main3_sentence2 {
+  margin: 20px 0;
+}
+.main3_cardicon3 {
+  color: #55bbbb;
+  font-size: 25px;
+  background-color: white;
+  display: inline-block;
+  position: absolute;
+  left: 15px;
+}
+.main3_catchcopy3 {
+  font-size: 25px;
+  margin-top: 50px;
+}
+.main3_sentence3 {
+  margin: 20px 0;
+}
+
+/* 以降footer */
+.footer {
+  width: 1000px;
+  margin-top: 250px;
+  margin-bottom: 100px;
+  text-align: center;
+}
